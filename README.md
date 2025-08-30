@@ -23,7 +23,6 @@ This repository contains the **frontend web application**, built with modern Rea
 - Node.js 
 - npm 
 
-
 ---
 
 
@@ -44,6 +43,7 @@ secnxt_frontend/
 ├── tailwind.config.js    # Tailwind CSS configuration
 └── vite.config.js        # Vite configuration
 
+---
 
 🔒 Security Considerations
 Designed for Moroccan SMBs, enterprises, and government clients.
@@ -52,6 +52,7 @@ Frontend communicates with the SecNXT backend over secure APIs.
 
 All sensitive operations handled on the server or zero-click agent; frontend only handles visualization and interactions.
 
+---
 
 🙏 Acknowledgments
 Developed by NXT Lap, Moroccan cybersecurity startup
