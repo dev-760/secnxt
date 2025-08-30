@@ -23,21 +23,8 @@ This repository contains the **frontend web application**, built with modern Rea
 - Node.js 
 - npm 
 
+
 ---
-
-## 🛠️ Installation
-
-1. Clone the repository and install dependencies:
-
-```bash
-npm install
-
-Start the development server:
-
-```bash
-npm start
-
-Open your browser at http://localhost:5173 (Vite default).
 
 
 📁 Project Structure
