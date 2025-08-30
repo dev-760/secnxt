@@ -45,24 +45,6 @@ secnxt_frontend/
 └── vite.config.js        # Vite configuration
 
 
-🧩 Adding Routes
-To add a new page, update Routes.jsx:
-
-import { useRoutes } from "react-router-dom";
-import HomePage from "pages/HomePage";
-import DashboardPage from "pages/DashboardPage";
-
-const ProjectRoutes = () => {
-  let element = useRoutes([
-    { path: "/", element: <HomePage /> },
-    { path: "/dashboard", element: <DashboardPage /> },
-    // Add more routes here
-  ]);
-
-  return element;
-};
-
-
 🔒 Security Considerations
 Designed for Moroccan SMBs, enterprises, and government clients.
 
@@ -73,7 +55,3 @@ All sensitive operations handled on the server or zero-click agent; frontend onl
 
 🙏 Acknowledgments
 Developed by NXT Lap, Moroccan cybersecurity startup
-
-Powered by React, Vite, Tailwind CSS, Redux Toolkit, Framer Motion
-
-Built with ❤️ by NXT Lap
